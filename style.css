@@ -56,22 +56,21 @@ padding-top: 2px;
 
 /* Product-collections */
 
-.product-collection{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-column-gap: 30px;
+.popular-collection-title{
+  text-align: center;
 }
-
 .product-category{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-
-
-
-.popular-collection-title{
-  text-align: center;
+.product-collection{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 30px;
+}
+.products{
+  margin-bottom: 30px;
 }
 
 .box-shadow{
@@ -83,9 +82,23 @@ padding-top: 2px;
 .fa-star.filled{
   color: #FB8200;
 }
+
+.see-more{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 150px;
+}
+.see-more a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #E02C6D;
+}
+/* ------------Footer-section------------ */
+
 .bottom-banner{
   background-color: #0A0826;
-  ;
+  display: flex;
+  justify-content: center;
 }
 .footer-title{
   color: white;
@@ -113,35 +126,19 @@ padding-top: 2px;
 
 }
 
+/* -------------Comment Section------------- */
 
-.see-more{
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 150px;
-}
-.see-more a{
-  text-decoration: none;
-  font-size: 16px;
-  color: #E02C6D;
-}
-.bottom-banner{
-  display: flex;
-  justify-content: center;
-}
-.products{
-  margin-bottom: 30px;
-}
-
-.comment-title{
-  font-family: 'Poppins', sans-serif;
-  display: flex;
-  transform: scale(1);
-}
 .comments{
   margin-left: 120px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.comment-title{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  transform: scale(1);
+}
+
 
 /* ------------Media Query for Mobile------- */
 @media only screen and (max-width: 688px) {
